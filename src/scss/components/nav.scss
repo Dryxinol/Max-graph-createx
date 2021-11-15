@@ -1,6 +1,7 @@
 .nav {
   &__list {
-    @include flex-v-center;
+    display: flex;
+    align-items: center;
   }
 
   &__item {
